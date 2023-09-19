@@ -8,6 +8,7 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 import styles from "./App.css"
 import { BrowserRouter } from "react-router-dom";
+import ScrollButton from './components/scroll';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <Skills />
       </div>
       <Contact />
-      <Footer/>
+      <Footer />
+      <ScrollButton/>
     </BrowserRouter>
   );
 }
