@@ -22,6 +22,7 @@ const Projects = () => {
             <a href="https://github.com/ethansjc/AWS-Projects">
               <h3>AWS Project Series</h3>
             </a>
+            <h6>Tutorial guide on using aws various services</h6>
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
@@ -30,6 +31,7 @@ const Projects = () => {
             <a href="https://takahatamo.github.io/cuisine/American">
               <h3>Deliciousness</h3>
             </a>
+            <h6>Recipes site using React</h6>
           </div>
           {/* <div className={styles.card}>
             <div className={styles.cardImg}>
