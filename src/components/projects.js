@@ -8,25 +8,29 @@ const Projects = () => {
         <div className={styles.cards}>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src="../images/proj.jpg" alt="img"></img>
+              <img src="../images/protech.png" alt="img"></img>
             </div>
-            <h3>ProTech</h3>
+            <a href="https://protech.onrender.com/">
+              <h3>ProTech</h3>
+            </a>
             <h6>Ecommerce website using MERN stack</h6>
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src="../images/proj.jpg" alt="img"></img>
+              <img src="../images/awsprojects.png" alt="img"></img>
             </div>
-            <h3>AWS Project Series</h3>
-            <h6>Tutorial guides using many AWS services that are available</h6>
+            <a href="https://github.com/ethansjc/AWS-Projects">
+              <h3>AWS Project Series</h3>
+            </a>
           </div>
-          {/* <div className={styles.card}>
+          <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src="../images/proj.jpg" alt="img"></img>
+              <img src="../images/deliciousness.png" alt="img"></img>
             </div>
-            <h3>My Project</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div> */}
+            <a href="https://takahatamo.github.io/cuisine/American">
+              <h3>Deliciousness</h3>
+            </a>
+          </div>
           {/* <div className={styles.card}>
             <div className={styles.cardImg}>
               <img src="../images/proj.jpg" alt="img"></img>
