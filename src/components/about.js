@@ -1,12 +1,5 @@
 import styles from "../styles/about.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHtml5,
-  faCss3,
-  faJs,
-  faReact,
-  faNode,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 const About = () => {
   return (
@@ -16,7 +9,7 @@ const About = () => {
         <div className={styles.aboutContainer}>
           <div className={styles.text}>
             <p>
-              I'm a front-end developer graduated from Centennial College as a
+              I'm a fullstack developer graduated from Centennial College as a
               software engineer in 2022. I have hands-on experience with .Net
               and Linux system. My interest in web development stems from my
               desire to continue learning and developing myself. I love problem

@@ -61,11 +61,6 @@ li a:hover {
         width: 100%;
     }
 
-    .listitems li {
-        display: none;
-
-    }
-
     li {
         display: flex;
         flex-direction: column;

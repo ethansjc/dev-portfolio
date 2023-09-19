@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import styles from "../styles/header.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faX } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
@@ -17,7 +13,6 @@ const Header = () => {
     <div>
       <div className={styles.header}>
         <ul className={click ? styles.mobileview : styles.listitems}>
-         
           <li className={styles.logo}>
             Ethan <span className={styles.dot}>.</span>
           </li>
@@ -27,13 +22,13 @@ const Header = () => {
           <li>
             <Link to="#about">About</Link>
           </li>
-
+          <li>
+            <Link to="#projects">Projects</Link>
+          </li>
           <li>
             <Link to="#contact">Contact</Link>
           </li>
-          <li>
-            <Link to="#projects">My Work</Link>
-          </li>
+
           <i
             className={
               click
@@ -42,8 +37,6 @@ const Header = () => {
             }
             onClick={handleClick}
           ></i>
-          {/* <FontAwesomeIcon icon={faBars}/> */}
-          {/* <FontAwesomeIcon icon={faBars}/> */}
         </ul>
       </div>
     </div>

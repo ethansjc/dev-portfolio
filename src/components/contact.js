@@ -9,7 +9,7 @@ const Contact = () => {
     <div id="contact">
       <div className={styles.container}>
         <div className={styles.containerWrap}>
-          <h1>Get In Touch</h1>
+          <h1>Stay Connected</h1>
           <div className={styles.info}>
             {/* <p className={styles.email}>Email To: </p> <span className={styles.emailto}><a href='mailto:husseinsaad123123@gmail.com'>Click To Email</a></span> */}
             <p>

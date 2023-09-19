@@ -8,7 +8,6 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 import styles from "./App.css"
 import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
 
 function App() {
   return (

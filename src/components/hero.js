@@ -7,11 +7,11 @@ const HeroContainer = () => {
         <div class={styles.textbox}>
           <h2>Ethan San Juan Cheong</h2>
           <p>
-            Hello! I'm a front-end developer strongly focused on creating and
+            Hello! I'm a full-stack developer strongly focused on creating and
             developing beautiful and functional websites.
           </p>
-          <a href="/">Contact Me</a>
-          <a href="/">Projects</a>
+          <a href="#contact">Contact Me</a>
+          <a href="#projects">Projects</a>
         </div>
 
         <div class={styles.bgimg}>
