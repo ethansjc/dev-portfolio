@@ -17,7 +17,7 @@ const HeroContainer = () => {
                   .typeString("Web Developer")
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("Full Stack Developer")
+                  .typeString("Cloud Developer")
                   .pauseFor(1000)
                   .deleteAll()
                   .typeString("Tech Enthusiast")
