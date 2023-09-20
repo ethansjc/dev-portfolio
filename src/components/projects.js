@@ -1,8 +1,6 @@
 import styles from "../styles/projects.module.css";
-// import AWSproject from "../images/awsprojects.jpg";
-// import Delicious from "../images/deliciousness.jpg";
-// import ProTech from "../images/protech.jpg";
-
+import Protech from "../images/protech.jpg";
+import AWSProject from "../images/awsprojects.jpg"; 
 const Projects = () => {
   return (
     <div id="projects">
@@ -12,7 +10,7 @@ const Projects = () => {
           <div className={styles.card}>
             <div className={styles.cardImg}>
               <img
-                src={require("../images/protech.jpg").default}
+                src={Protech}
                 alt="img"
               ></img>
             </div>
@@ -24,7 +22,7 @@ const Projects = () => {
           <div className={styles.card}>
             <div className={styles.cardImg}>
               <img
-                src={require("../images/awsprojects.jpg").default}
+                src={AWSProject}
                 alt="img"
               ></img>
             </div>
@@ -33,10 +31,10 @@ const Projects = () => {
             </a>
             <h6>Tutorial guide on using aws various services</h6>
           </div>
-          <div className={styles.card}>
+          {/* <div className={styles.card}>
             <div className={styles.cardImg}>
               <img
-                src={require("../images/deliciousness.jpg").default}
+                src="../images/deliciousness.jpg"
                 alt="img"
               ></img>
             </div>
@@ -44,7 +42,7 @@ const Projects = () => {
               <h3>Deliciousness</h3>
             </a>
             <h6>Recipes site using React</h6>
-          </div>
+          </div> */}
           {/* <div className={styles.card}>
             <div className={styles.cardImg}>
               <img src="../images/proj.jpg" alt="img"></img>
