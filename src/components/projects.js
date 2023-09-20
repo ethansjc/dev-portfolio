@@ -8,7 +8,7 @@ const Projects = () => {
         <div className={styles.cards}>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src="../images/protech.png" alt="img"></img>
+              <img src="./public/images/protech.png" alt="img"></img>
             </div>
             <a href="https://protech.onrender.com/">
               <h3>ProTech</h3>
@@ -17,7 +17,7 @@ const Projects = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src="../images/awsprojects.png" alt="img"></img>
+              <img src="./public/images/awsprojects.png" alt="img"></img>
             </div>
             <a href="https://github.com/ethansjc/AWS-Projects">
               <h3>AWS Project Series</h3>
@@ -26,9 +26,9 @@ const Projects = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src="../images/deliciousness.png" alt="img"></img>
+              <img src="./public/images/deliciousness.png" alt="img"></img>
             </div>
-            <a href="https://takahatamo.github.io/cuisine/American">
+            <a href="https://takahatamo.github.io/Delicious">
               <h3>Deliciousness</h3>
             </a>
             <h6>Recipes site using React</h6>
