@@ -1,7 +1,7 @@
 import styles from "../styles/projects.module.css";
-import AWSproject from "../images/awsprojects.jpg";
-import Delicious from "../images/deliciousness.jpg";
-import ProTech from "../images/protech.jpg";
+// import AWSproject from "../images/awsprojects.jpg";
+// import Delicious from "../images/deliciousness.jpg";
+// import ProTech from "../images/protech.jpg";
 
 const Projects = () => {
   return (
@@ -11,7 +11,10 @@ const Projects = () => {
         <div className={styles.cards}>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src={ProTech} alt="img"></img>
+              <img
+                src={require("../images/protech.jpg").default}
+                alt="img"
+              ></img>
             </div>
             <a href="https://protech.onrender.com/">
               <h3>ProTech</h3>
@@ -20,7 +23,10 @@ const Projects = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src={AWSproject} alt="img"></img>
+              <img
+                src={require("../images/awsprojects.jpg").default}
+                alt="img"
+              ></img>
             </div>
             <a href="https://github.com/ethansjc/AWS-Projects">
               <h3>AWS Project Series</h3>
@@ -29,7 +35,10 @@ const Projects = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img src={Delicious} alt="img"></img>
+              <img
+                src={require("../images/deliciousness.jpg").default}
+                alt="img"
+              ></img>
             </div>
             <a href="https://takahatamo.github.io/Delicious">
               <h3>Deliciousness</h3>
