@@ -22,7 +22,7 @@ const Contact = () => {
               Phone: <span className={styles.emailtxt}>+1 437 333 1030</span>
             </p>
           </div>
-          <div classNAme={styles.icons}>
+          <div className={styles.icons}>
             <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
             <FontAwesomeIcon icon={faGithub} className={styles.icon} />
             <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />

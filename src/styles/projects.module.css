@@ -4,8 +4,13 @@
     display: block;
     text-align: center;
     width: 100%;
-    margin-bottom: 50px;
-    font-family: 'Raleway', sans-serif;
+    background-color: #292C35;
+    margin-top: -21px;
+
+}
+
+.h1 {
+    color: #fff;
 }
 
 .cards {
@@ -13,7 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: 20px;
 
 }
 
@@ -36,7 +41,8 @@
 
 @media (max-width: 1250px) {
     .container {
-        width: 95%;
+        width: 100%;
+            margin-top: -25px;
     }
 
     .cards {

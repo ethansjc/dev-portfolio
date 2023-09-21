@@ -6,10 +6,20 @@ const Skills = () => {
       <span className={styles.skillsec}>Skills</span>
       <ul className={styles.skillsList}>
         <li>
-          <img src="https://skillicons.dev/icons?i=html" alt="html"></img>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            alt="html"
+          >
+            <img src="https://skillicons.dev/icons?i=html" alt="html"></img>
+          </a>
         </li>
         <li>
-          <img src="https://skillicons.dev/icons?i=js" alt="js"></img>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            alt="js"
+          >
+            <img src="https://skillicons.dev/icons?i=js" alt="js"></img>
+          </a>
         </li>
         <li>
           <img src="https://skillicons.dev/icons?i=css" alt="css"></img>
@@ -36,7 +46,10 @@ const Skills = () => {
           <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs"></img>
         </li>
         <li>
-          <img src="https://skillicons.dev/icons?i=expressjs" alt="expressjs"></img>
+          <img
+            src="https://skillicons.dev/icons?i=expressjs"
+            alt="expressjs"
+          ></img>
         </li>
         <li>
           <img src="https://skillicons.dev/icons?i=py" alt="py"></img>

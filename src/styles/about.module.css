@@ -1,35 +1,35 @@
 .container {
     display: block;
-    background-color: #65e2dc;
-    padding-top: 20px;
-    height: 500px;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-    margin-bottom: -10vw;
+    background-color: #2d3047;
+    padding-top: 5px;
+    height: 450px;
 }
 
 .container h1 {
     text-align: center;
+    color: #ffffff;
 }
 
 .aboutContainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 0px;
 }
 
 .aboutContainer .text {
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1rem;
+    font-weight: normal;
+
 }
 
 .text p {
-    padding-top: 60px;
-    color: rgb(3, 3, 3);
-    width: 50%;
-    font-weight: bold;
+    padding-top: 25px;
+    color: #ffffff;
+    width: 80%;
+    font-weight: 200;
 }
 
 
@@ -46,4 +46,12 @@
     .skillsList .icon {
         border: none;
     }
+
+    .text p {
+        padding-top: 2px;
+        color: #ffffff;
+        width: 80%;
+        font-weight: 100;
+    }
+
 }

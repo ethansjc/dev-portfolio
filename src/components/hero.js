@@ -3,43 +3,38 @@ import Typewriter from "typewriter-effect";
 const HeroContainer = () => {
   return (
     <div id="home">
-      <div class={styles.container}>
-        <div class={styles.textbox}>
-          <h2>Ethan San Juan Cheong</h2>
-          {/* <div class="">
-            <h3>Image Loading...</h3>
-            <img src="" alt="" />
-          </div> */}
-          <div class={ styles.Typewriter}>
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Web Developer")
-                  .pauseFor(1000)
-                  .deleteAll()
-                  .typeString("Cloud Developer")
-                  .pauseFor(1000)
-                  .deleteAll()
-                  .typeString("Tech Enthusiast")
-                  .start()
-                
-            }}
-            />
-
-            
+      <header className={styles.header}>
+        <div className={styles.container}>
+          <div className={styles.textbox}>
+            <h2>Ethan San Juan-Cheong</h2>
+            <div className={styles.Typewriter}>
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 40,
+                  strings: [
+                    "I'm a Web & Mobile Developer",
+                    "I'm a Full Stack Developer Graduate",
+                    "I'm a Cloud Developer",
+                    "I'm a Tech Enthusiast",
+                  ],
+                }}
+              />
+            </div>
+            <p>
+              Hello! I'm a full-stack developer strongly focused on creating and
+              developing beautiful websites.
+            </p>
+            <a href="#contact">Contact Me</a>
+            <a href="#projects">Projects</a>
           </div>
-          <p>
-            Hello! I'm a full-stack developer strongly focused on creating and
-            developing beautiful and functional websites.
-          </p>
-          <a href="#contact">Contact Me</a>
-          <a href="#projects">Projects</a>
-        </div>
 
-        <div class={styles.bgimg}>
-          <div className={styles.bgimgcolor}></div>
+          <div className={styles.bgimg}>
+            <div className={styles.bgimgcolor}></div>
+          </div>
         </div>
-      </div>
+      </header>
     </div>
   );
 };

@@ -1,18 +1,15 @@
 import styles from "../styles/projects.module.css";
 import Protech from "../images/protech.jpg";
-import AWSProject from "../images/awsprojects.jpg"; 
+import AWSProject from "../images/awsprojects.jpg";
 const Projects = () => {
   return (
     <div id="projects">
       <div className={styles.container}>
-        <h1>Projects</h1>
+        <h1 className={styles.h1}>Projects</h1>
         <div className={styles.cards}>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img
-                src={Protech}
-                alt="img"
-              ></img>
+              <img src={Protech} alt="img"></img>
             </div>
             <a href="https://protech.onrender.com/">
               <h3>ProTech</h3>
@@ -21,10 +18,7 @@ const Projects = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg}>
-              <img
-                src={AWSProject}
-                alt="img"
-              ></img>
+              <img src={AWSProject} alt="img"></img>
             </div>
             <a href="https://github.com/ethansjc/AWS-Projects">
               <h3>AWS Project Series</h3>

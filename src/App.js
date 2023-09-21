@@ -15,15 +15,17 @@ function App() {
     <BrowserRouter>
       <div className={styles.pageContainer}>
         <Header />
-        <div className={styles.pageContainer}></div>
-        <HeroContainer />
-        <Projects />
-        <About />
-        <Skills />
-      </div>
+        <div className={styles.pageContainer}>
+          <HeroContainer />
+          <About />
+          <Projects />
+          <Skills />
+        </div>
+      
       <Contact />
       <Footer />
-      <ScrollButton/>
+      <ScrollButton />
+      </div>
     </BrowserRouter>
   );
 }
