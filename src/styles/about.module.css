@@ -5,6 +5,7 @@
      background-color: #2d3047;
      padding-top: 5px;
      height: 450px;
+     margin-top: -25px;
  }
 
  .container h1 {
@@ -30,7 +31,8 @@
  .text p {
      padding-top: 25px;
      color: #ffffff;
-     width: auto;
+     width: 60%;
+     height: auto;
      font-weight: 500;
  }
 
@@ -52,6 +54,7 @@
      .text p {
          color: #ffffff;
          width: auto;
+         height: auto;
          font-weight: 500;
      }
 

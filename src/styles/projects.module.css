@@ -3,14 +3,20 @@
 .container {
     display: block;
     text-align: center;
-    width: 100%;
+    width: auto;
     background-color: #292C35;
     margin-top: -25px;
 
 }
+.projectsContainer{
+        display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0px;
+}
 
 .h1, .h3, .h6 {
-    color: #fff;
+    color: #ffffff;
 }
 
 .cards {
