@@ -8,22 +8,24 @@ const Projects = () => {
         <h1 className={styles.h1}>Projects</h1>
         <div className={styles.cards}>
           <div className={styles.card}>
-            <div className={styles.cardImg}>
-              <img src={Protech} alt="img"></img>
-            </div>
             <a href="https://protech.onrender.com/">
-              <h3>ProTech</h3>
+              <div className={styles.cardImg}>
+                <img src={Protech} alt="img"></img>
+              </div>
+              <h3 className={styles.h3}>ProTech</h3>
             </a>
-            <h6>Ecommerce website using MERN stack</h6>
+            <h6 className={styles.h6}>Ecommerce website using MERN stack</h6>
           </div>
           <div className={styles.card}>
-            <div className={styles.cardImg}>
-              <img src={AWSProject} alt="img"></img>
-            </div>
             <a href="https://github.com/ethansjc/AWS-Projects">
-              <h3>AWS Project Series</h3>
+              <div className={styles.cardImg}>
+                <img src={AWSProject} alt="img"></img>
+              </div>
+              <h3 className={styles.h3}>AWS Project Series</h3>
             </a>
-            <h6>Tutorial guide on using aws various services</h6>
+            <h6 className={styles.h6}>
+              Tutorial guide on using aws various services
+            </h6>
           </div>
           {/* <div className={styles.card}>
             <div className={styles.cardImg}>

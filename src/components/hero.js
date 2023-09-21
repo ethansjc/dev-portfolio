@@ -12,7 +12,7 @@ const HeroContainer = () => {
                 options={{
                   autoStart: true,
                   loop: true,
-                  delay: 40,
+                  delay: 50,
                   strings: [
                     "I'm a Web & Mobile Developer",
                     "I'm a Full Stack Developer Graduate",

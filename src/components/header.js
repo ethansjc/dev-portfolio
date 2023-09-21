@@ -14,7 +14,7 @@ const Header = () => {
       <div className={styles.header}>
         <ul className={click ? styles.mobileview : styles.listitems}>
           <li className={styles.logo}>
-            Ethan <span className={styles.dot}>.</span>
+            Ethan
           </li>
           <li>
             <Link to="#home">Home</Link>

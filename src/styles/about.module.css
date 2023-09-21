@@ -1,57 +1,58 @@
-.container {
-    display: block;
-    background-color: #2d3047;
-    padding-top: 5px;
-    height: 450px;
-}
+ @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
 
-.container h1 {
-    text-align: center;
-    color: #ffffff;
-}
+ .container {
+     display: block;
+     background-color: #2d3047;
+     padding-top: 5px;
+     height: 450px;
+ }
 
-.aboutContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px;
-}
+ .container h1 {
+     text-align: center;
+     color: #ffffff;
+ }
 
-.aboutContainer .text {
-    display: flex;
-    justify-content: center;
-    font-size: 1rem;
-    font-weight: normal;
+ .aboutContainer {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding: 0px;
+ }
 
-}
+ .aboutContainer .text {
+     display: flex;
+     justify-content: center;
+     font-size: 1rem;
+     font-weight: normal;
 
-.text p {
-    padding-top: 25px;
-    color: #ffffff;
-    width: 80%;
-    font-weight: 200;
-}
+ }
+
+ .text p {
+     padding-top: 25px;
+     color: #ffffff;
+     width: auto;
+     font-weight: 500;
+ }
 
 
 
-@media (max-width: 1250px) {
-    .skillsList {
-        flex-wrap: wrap;
-    }
+ @media (max-width: 1250px) {
+     .skillsList {
+         flex-wrap: wrap;
+     }
 
-    .skillsList li {
-        flex-basis: 25%;
-    }
+     .skillsList li {
+         flex-basis: 25%;
+     }
 
-    .skillsList .icon {
-        border: none;
-    }
+     .skillsList .icon {
+         border: none;
+     }
 
-    .text p {
-        padding-top: 2px;
-        color: #ffffff;
-        width: 80%;
-        font-weight: 100;
-    }
+     .text p {
+         color: #ffffff;
+         width: auto;
+         font-weight: 500;
+     }
 
-}
+ }

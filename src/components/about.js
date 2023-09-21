@@ -9,7 +9,7 @@ const About = () => {
             <div className={styles.aboutContainer}>
               <h1>Hey there, I'm Ethan</h1>
               <div className={styles.text}>
-                <p>
+                <p className={ styles.ptext}>
                   My name is Ethan San Juan Cheong. I am a web developer
                   graduate from Centennial College in 2022. I have hands-on
                   experience with C#, Java, Python and JavaScript. My
