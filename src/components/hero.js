@@ -1,5 +1,6 @@
 import styles from "../styles/hero.module.css";
 import Typewriter from "typewriter-effect";
+// import ESCImage from "../images/ethansjc.png";
 const HeroContainer = () => {
   return (
     <div id="home">
@@ -31,7 +32,9 @@ const HeroContainer = () => {
           </div>
 
           <div className={styles.bgimg}>
-            <div className={styles.bgimgcolor}></div>
+            <div className={styles.bgimgcolor}>
+              <img src={require("../images/ethansjc.jpg")} alt="" srcset="" />
+            </div>
           </div>
         </div>
       </header>
