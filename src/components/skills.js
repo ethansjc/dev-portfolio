@@ -8,7 +8,11 @@ const Skills = () => {
         <ul className={styles.skillsList}>
           <li>
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-              <img src="https://skillicons.dev/icons?i=html" alt="html"></img>
+              <img
+                src="https://skillicons.dev/icons?i=html"
+                alt="html"
+
+              ></img>
             </a>
           </li>
           <li>

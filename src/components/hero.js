@@ -7,6 +7,11 @@ const HeroContainer = () => {
       <header className={styles.header}>
         <div className={styles.container}>
           <div className={styles.textbox}>
+            <div className={styles.bgimg}>
+              <div className={styles.bgimgcolor}>
+                <img src={require("../images/ethansjc.jpg")} alt="" srcSet="" />
+              </div>
+            </div>
             <h2>Ethan San Juan-Cheong</h2>
             <div className={styles.Typewriter}>
               <Typewriter
@@ -23,18 +28,10 @@ const HeroContainer = () => {
                 }}
               />
             </div>
-            <p>
+            {/* <p>
               Hello! I'm a full-stack developer strongly focused on creating and
               developing beautiful websites.
-            </p>
-            <a href="#contact">Contact Me</a>
-            <a href="#projects">Projects</a>
-          </div>
-
-          <div className={styles.bgimg}>
-            <div className={styles.bgimgcolor}>
-              <img src={require("../images/ethansjc.jpg")} alt="" srcset="" />
-            </div>
+            </p> */}
           </div>
         </div>
       </header>
